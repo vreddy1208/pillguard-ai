@@ -137,7 +137,7 @@ if not st.session_state.user:
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        st.markdown("<h1 class='animate-header' style='text-align: center; margin-bottom: 2rem;'><span class='floating-icon'>🩺</span> <span class='gradient-text'>Medi-Buddy Login</span></h1>", unsafe_allow_html=True)
+        st.markdown("<h1 class='animate-header' style='text-align: center; margin-bottom: 2rem;'><span class='floating-icon'>🩺</span> <span class='gradient-text'>Pillguard-ai</span></h1>", unsafe_allow_html=True)
         
         tab1, tab2 = st.tabs(["🔐 Login", "📝 Sign Up"])
         
